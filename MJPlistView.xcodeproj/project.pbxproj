@@ -13,6 +13,17 @@
 		069B96222092D0EA009CEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B96212092D0EA009CEEEF /* Assets.xcassets */; };
 		069B96252092D0EA009CEEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069B96232092D0EA009CEEEF /* LaunchScreen.storyboard */; };
 		069B96282092D0EA009CEEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96272092D0EA009CEEEF /* main.m */; };
+		069B963D2092D2B1009CEEEF /* NSObject+MJMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96332092D2B0009CEEEF /* NSObject+MJMutableCopy.m */; };
+		069B963E2092D2B1009CEEEF /* UICollectionViewCell+MJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96362092D2B0009CEEEF /* UICollectionViewCell+MJUtils.m */; };
+		069B963F2092D2B1009CEEEF /* MJPlistTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96382092D2B0009CEEEF /* MJPlistTableView.m */; };
+		069B96402092D2B1009CEEEF /* UITableViewCell+MJPlistUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96392092D2B1009CEEEF /* UITableViewCell+MJPlistUtils.m */; };
+		069B96412092D2B1009CEEEF /* MJPlistCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B963B2092D2B1009CEEEF /* MJPlistCollectionView.m */; };
+		069B96442092D3EB009CEEEF /* UIColor+MJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96432092D3EB009CEEEF /* UIColor+MJUtils.m */; };
+		069B96472092D757009CEEEF /* UIViewController+MJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96462092D757009CEEEF /* UIViewController+MJUtils.m */; };
+		069B964A2092DABE009CEEEF /* MJFileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B96492092DABE009CEEEF /* MJFileData.m */; };
+		069B964F20930549009CEEEF /* config_plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 069B964C20930548009CEEEF /* config_plist.plist */; };
+		069B965020930549009CEEEF /* 配置字段解释.txt in Resources */ = {isa = PBXBuildFile; fileRef = 069B964D20930548009CEEEF /* 配置字段解释.txt */; };
+		069B965120930549009CEEEF /* config_json.json in Resources */ = {isa = PBXBuildFile; fileRef = 069B964E20930548009CEEEF /* config_json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,25 @@
 		069B96242092D0EA009CEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069B96262092D0EA009CEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069B96272092D0EA009CEEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069B96312092D2B0009CEEEF /* NSObject+MJMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMutableCopy.h"; sourceTree = "<group>"; };
+		069B96332092D2B0009CEEEF /* NSObject+MJMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMutableCopy.m"; sourceTree = "<group>"; };
+		069B96342092D2B0009CEEEF /* UITableViewCell+MJPlistUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MJPlistUtils.h"; sourceTree = "<group>"; };
+		069B96352092D2B0009CEEEF /* MJPlistCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPlistCollectionView.h; sourceTree = "<group>"; };
+		069B96362092D2B0009CEEEF /* UICollectionViewCell+MJUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MJUtils.m"; sourceTree = "<group>"; };
+		069B96372092D2B0009CEEEF /* UICollectionViewCell+MJUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+MJUtils.h"; sourceTree = "<group>"; };
+		069B96382092D2B0009CEEEF /* MJPlistTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPlistTableView.m; sourceTree = "<group>"; };
+		069B96392092D2B1009CEEEF /* UITableViewCell+MJPlistUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MJPlistUtils.m"; sourceTree = "<group>"; };
+		069B963A2092D2B1009CEEEF /* MJPlistTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPlistTableView.h; sourceTree = "<group>"; };
+		069B963B2092D2B1009CEEEF /* MJPlistCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPlistCollectionView.m; sourceTree = "<group>"; };
+		069B96422092D3EB009CEEEF /* UIColor+MJUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MJUtils.h"; sourceTree = "<group>"; };
+		069B96432092D3EB009CEEEF /* UIColor+MJUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MJUtils.m"; sourceTree = "<group>"; };
+		069B96452092D757009CEEEF /* UIViewController+MJUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJUtils.h"; sourceTree = "<group>"; };
+		069B96462092D757009CEEEF /* UIViewController+MJUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJUtils.m"; sourceTree = "<group>"; };
+		069B96482092DABE009CEEEF /* MJFileData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFileData.h; sourceTree = "<group>"; };
+		069B96492092DABE009CEEEF /* MJFileData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFileData.m; sourceTree = "<group>"; };
+		069B964C20930548009CEEEF /* config_plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config_plist.plist; sourceTree = "<group>"; };
+		069B964D20930548009CEEEF /* 配置字段解释.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "配置字段解释.txt"; sourceTree = "<group>"; };
+		069B964E20930548009CEEEF /* config_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_json.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 		069B96172092D0E9009CEEEF /* MJPlistView */ = {
 			isa = PBXGroup;
 			children = (
+				069B962F2092D1B2009CEEEF /* Assets */,
+				069B962E2092D1B2009CEEEF /* Classes */,
 				069B96182092D0E9009CEEEF /* AppDelegate.h */,
 				069B96192092D0E9009CEEEF /* AppDelegate.m */,
 				069B961B2092D0E9009CEEEF /* ViewController.h */,
@@ -70,6 +102,39 @@
 			);
 			path = MJPlistView;
 			sourceTree = "<group>";
+		};
+		069B962E2092D1B2009CEEEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				069B963A2092D2B1009CEEEF /* MJPlistTableView.h */,
+				069B96382092D2B0009CEEEF /* MJPlistTableView.m */,
+				069B96352092D2B0009CEEEF /* MJPlistCollectionView.h */,
+				069B963B2092D2B1009CEEEF /* MJPlistCollectionView.m */,
+				069B96482092DABE009CEEEF /* MJFileData.h */,
+				069B96492092DABE009CEEEF /* MJFileData.m */,
+				069B96342092D2B0009CEEEF /* UITableViewCell+MJPlistUtils.h */,
+				069B96392092D2B1009CEEEF /* UITableViewCell+MJPlistUtils.m */,
+				069B96452092D757009CEEEF /* UIViewController+MJUtils.h */,
+				069B96462092D757009CEEEF /* UIViewController+MJUtils.m */,
+				069B96422092D3EB009CEEEF /* UIColor+MJUtils.h */,
+				069B96432092D3EB009CEEEF /* UIColor+MJUtils.m */,
+				069B96372092D2B0009CEEEF /* UICollectionViewCell+MJUtils.h */,
+				069B96362092D2B0009CEEEF /* UICollectionViewCell+MJUtils.m */,
+				069B96312092D2B0009CEEEF /* NSObject+MJMutableCopy.h */,
+				069B96332092D2B0009CEEEF /* NSObject+MJMutableCopy.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		069B962F2092D1B2009CEEEF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				069B964D20930548009CEEEF /* 配置字段解释.txt */,
+				069B964E20930548009CEEEF /* config_json.json */,
+				069B964C20930548009CEEEF /* config_plist.plist */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -129,8 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				069B96252092D0EA009CEEEF /* LaunchScreen.storyboard in Resources */,
+				069B965020930549009CEEEF /* 配置字段解释.txt in Resources */,
+				069B964F20930549009CEEEF /* config_plist.plist in Resources */,
 				069B96222092D0EA009CEEEF /* Assets.xcassets in Resources */,
 				069B96202092D0E9009CEEEF /* Main.storyboard in Resources */,
+				069B965120930549009CEEEF /* config_json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069B96402092D2B1009CEEEF /* UITableViewCell+MJPlistUtils.m in Sources */,
+				069B963F2092D2B1009CEEEF /* MJPlistTableView.m in Sources */,
+				069B96412092D2B1009CEEEF /* MJPlistCollectionView.m in Sources */,
+				069B963E2092D2B1009CEEEF /* UICollectionViewCell+MJUtils.m in Sources */,
 				069B961D2092D0E9009CEEEF /* ViewController.m in Sources */,
 				069B96282092D0EA009CEEEF /* main.m in Sources */,
 				069B961A2092D0E9009CEEEF /* AppDelegate.m in Sources */,
+				069B96472092D757009CEEEF /* UIViewController+MJUtils.m in Sources */,
+				069B96442092D3EB009CEEEF /* UIColor+MJUtils.m in Sources */,
+				069B963D2092D2B1009CEEEF /* NSObject+MJMutableCopy.m in Sources */,
+				069B964A2092DABE009CEEEF /* MJFileData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MM79XMJ9;
 				INFOPLIST_FILE = MJPlistView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MM79XMJ9;
 				INFOPLIST_FILE = MJPlistView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

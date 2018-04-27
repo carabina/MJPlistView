@@ -1,0 +1,68 @@
+{
+  "PlistTableView": {
+    "hideSeparator": true,
+    "separatorColor": "",
+    "separatorLeftSpace": "",
+    "backgroundColor": "",
+    "groupList": [
+      {
+        "groupKey": "",
+        "cellList": [
+          {
+            "keyForCell": "",
+            "cellClass": "UITableViewCell",
+            "cellIdentifier": "UITableViewCell",
+            "icon": "",
+            "titleKey": "setting_need_help",
+            "detailTextKey": "",
+            "cellHeight": "45",
+            "cellStyle": "",
+            "hideAccessory": false,
+            "accessoryIcon": "",
+            "tintColor": "",
+            "titleColor": "000000",
+            "detailTextColor": "",
+            "normalBgColor": "",
+            "selectBgColor": "",
+            "cellEvent": {
+              "executeClass": "",
+              "action": "",
+              "attachData": {
+              },
+              "targetController": "",
+              "useTabBar": false,
+              "usePresent": false,
+              "targetData": {
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PlistCollectionView": {
+    "cellClass": "SettingsCollectionViewCell",
+    "cellIdentifier": "SettingsCollectionViewCell",
+    "groupList": [
+      {
+        "groupKey": "",
+        "cellList": [
+          {
+            "keyForCell": "",
+            "icon": "img_setting_review",
+            "titleKey": "setting_review",
+            "cellEvent": {
+              "executeClass": "",
+              "action": "",
+              "attachData": {
+              },
+              "targetController": "",
+              "useTabBar": false,
+              "usePresent": false,
+              "targetData": {
+              }
+            }
+          }
+        ]
+      }
+    ]}}
